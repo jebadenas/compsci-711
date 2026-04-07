@@ -5,6 +5,7 @@ csc /r:System.Windows.Forms.dll /out:Middleware3\Middleware3.exe Middleware3\Mid
 csc /r:System.Windows.Forms.dll /out:Middleware4\Middleware4.exe Middleware4\Middleware4.cs
 csc /r:System.Windows.Forms.dll /out:Middleware5\Middleware5.exe Middleware5\Middleware5.cs
 start network\network.exe
+timeout /t 2 /nobreak >nul
 start Middleware1\Middleware1.exe
 start Middleware2\Middleware2.exe
 start Middleware3\Middleware3.exe
